@@ -1,0 +1,18 @@
+{
+    "NAME" : "NILANK NIKHIL",
+    "ABOUT_ME": "Hello this is Nilank Nikhil, working as a backend developer at Betaflux Consulting Private Limited",
+    "LANGUAGES": [
+        "Python",
+        "Javascript",
+        "Java",
+        "C++"
+    ],
+    "PROJECTS": [
+        
+           
+            ["filter_drama", "Google", "Google is an amazing search-engine"],
+            ["place", "Youtube", "The best video sharing platform."],
+            ["whatshot", "Github", "The best for developments."]
+    ]
+}
+

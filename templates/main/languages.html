@@ -8,10 +8,9 @@
     <h1 class="center-align">Languages I Love ❤️</h1>
     <div class="row">
         <ul class="collection">
-          <li class="collection-item">Python</li>
-          <li class="collection-item">Javascript</li>
-          <li class="collection-item">Java</li>
-          <li class="collection-item">C++</li>
+          {% for language in languages %}
+          <li class="collection-item">{{ language }}</li>
+          {% endfor %}
         </ul>
     </div>
   </div>
