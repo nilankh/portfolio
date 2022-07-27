@@ -10,7 +10,8 @@
         <div class="col s12 m4">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title">Card Title</span>
+              <img class="materialboxed responsive-img"  src="https://avatars.githubusercontent.com/u/38290758?v=4" alt="">
+              <span class="card-title">Nilank Nikhil</span>
                 <p></p>
                 </div>
                 <div class="card-action">
@@ -22,12 +23,25 @@
         <div class="col s12 m8">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title">Card Title</span>
-                <p></p>
+              <span class="card-title">About Me</span>
+                <p>
+                  Hello this is Nilank Nikhil, working as a backend developer at Betaflux Consulting Private Limited
+                </p>
                 </div>
               </div>
         </div>
       </div>
     </div>
+
+{% endblock %}
+
+{% block script %}
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+ var elems = document.querySelectorAll('.materialboxed');
+ var instances = M.Materialbox.init(elems);
+});
+  </script>
 
 {% endblock %}
